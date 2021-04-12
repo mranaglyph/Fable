@@ -1,0 +1,40 @@
+Author: mranaglyph
+Date:4/11/2021
+
+General Info:
+This .exe was compiled from AutoIt [SciTE-Lite]. As I understand, 
+AutoIt had a bad reputation in the past with people abusing it and 
+creating malware/trojans.
+
+As a result, some AutoIt created programs can be flagged as a trojan. 
+In the case of this .exe [Fable Camera], if this happens, it is a false positive.
+
+This file is really short and sweet as far as the script length is concerned.
+I have included the original .au3 file if you want to see.
+
+What It Does:
+All this program does is take the key binding for resetting the camera, and
+creates a logic gate using the numpad. I'm sure this could be repurposed, 
+but I'm not thinking about how yet. Anyway, Enjoy! 
+
+How To Use:
+1.  Load your Fable game first.
+
+2.  Go into options and change the key binding for "Reset Camera" to "Num Lock."
+
+3.  Run this program [Fable Camera.exe]
+
+4.  The camera in game will now always be behind the player, which I personally find to be much more 
+    visually useful than the "auto-lock when you walk past someone" camera the game gives you normally.
+
+5a. Of course, if you want to disable the camera fix temporarily, you can use the 
+    division [/] key on the numpad.
+
+5b. Just press the division [/] key again to re-activate the camera fix. 
+
+6.  Alternatively, F9 should stop the .exe altogether, and you would need to 
+    re-run it again if you wanted it back.
+
+TL;DR: 
+	F9 = Kill Process
+	/ = Toggle Camera Fix On/Off
